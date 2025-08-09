@@ -53,7 +53,7 @@ func main() {
 	}
 
 	if err := loadBalancerServer.ListenAndServe(); err != nil {
-		log.Fatalf("Load balancer failed: %v", err)
+		log.Fatalf("Load balancer failed on: %v", err)
 	}
 
 }
