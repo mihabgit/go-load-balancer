@@ -36,7 +36,7 @@ The project is organized into three files:
    Open your terminal, navigate to the directory, and run:
 
    ```bash
-   go run main.go
+   go run main.go loadbalancer.go backend.go
    ```
 
 Expected Result:
